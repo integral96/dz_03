@@ -10,3 +10,5 @@ print_ip( std::vector<int>{100, 200, 300, 400} ); // 100.200.300.400<br />
 print_ip( std::list<shot>{400, 300, 200, 100} ); // 400.300.200.100<br />
 print_ip( std::make_tuple(123, 456, 789, 0) ); // 123.456.789.0<br />
 
+# задача task_2047
+ > https://acm.timus.ru/problem.aspx?space=1&num=2047
