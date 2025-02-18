@@ -88,6 +88,8 @@ void print_sequence() {
 int main()
 {
     print_sequence<10>();
+    //sequence_k closure;
+    //closure.apply<100000>(); //Можно задачть и большее число, я не нашел для каких чисел N это Impossible. 
 
     return 0;
 }
