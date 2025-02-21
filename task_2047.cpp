@@ -81,6 +81,7 @@ public:
 
 template<size_t N>
 void print_sequence() {
+    static_assert(N <= 30, "N не должно быть большим, иначе на долго ))");
     sequence_k closure;
     meta_loop<N>( closure);
 }
